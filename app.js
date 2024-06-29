@@ -27,3 +27,4 @@ searchBtn.addEventListener("click", () => {
     });
 });
 // This is a comment
+// This is commit 2

@@ -26,3 +26,4 @@ searchBtn.addEventListener("click", () => {
       result.textContent = "Error fetching meaning";
     });
 });
+// This is a comment

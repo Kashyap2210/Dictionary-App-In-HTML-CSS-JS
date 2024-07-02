@@ -53,6 +53,13 @@ body {
   background-color: #ceacec;
 }
 
+.meaning {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 85%;
+  height: 45%;
+}
+
 @media (max-width: 640px) {
   .container {
     width: 60%;
@@ -65,5 +72,10 @@ body {
     margin: 1rem auto;
     width: 100%;
     height: 3rem;
+  }
+  .meaning {
+    border: 1px solid #ceacec;
+    border-radius: 1rem;
+    overflow-y: auto; /* Enable vertical scrolling */
   }
 }

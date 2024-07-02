@@ -58,6 +58,12 @@ body {
   padding: 1rem;
   width: 85%;
   height: 45%;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.meaning::-webkit-scrollbar {
+  display: none; /* Webkit browsers (like Chrome/Safari) */
 }
 
 @media (max-width: 640px) {
@@ -74,6 +80,7 @@ body {
     height: 3rem;
   }
   .meaning {
+    width: 80%;
     border: 1px solid #ceacec;
     border-radius: 1rem;
     overflow-y: auto; /* Enable vertical scrolling */
